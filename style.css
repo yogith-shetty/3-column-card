@@ -1,0 +1,47 @@
+.main{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.a{
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+}
+.b{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+.c{
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+}
+
+.btn{
+    font-size: 18px ;
+    position: relative;
+    padding: 16px 25px 16px 25px;
+    background-color: azure;
+    text-decoration: none;
+
+    border-radius: 25px;
+    top: 15%;
+}
+.a .btn{
+    color:hsl(31, 77%, 52%) ;
+}
+.b .btn{
+    color: hsl(184, 100%, 22%);
+}
+.c .btn{
+    color: hsl(179, 100%, 13%);
+}
+.main{
+    display: flex;
+}
